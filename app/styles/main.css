@@ -1,0 +1,70 @@
+table{
+      margin:50px auto;
+      width: 450px;
+      height: 450px;
+      border: 3px solid black;
+      border-spacing: 15px;
+      background-color: black;
+      border-radius: 50px 50px 50px 50px;
+      -moz-border-radius: 50px 50px 50px 50px;
+      -webkit-border-radius: 50px 50px 50px 50px;
+      text-align: center;
+      border-collapse: separate;
+    }
+    
+    td{
+      border: 4px solid black;
+      width: 175px;
+      height: 175px;
+    }
+    
+    #nombre{
+      color: black;
+    }
+
+    #verde{
+      border-color: red yellow yellow red;
+      background-color: green;
+      border-radius: 100% 10px 10px 10px;
+      box-shadow: inset -6px -5px 0px 0px rgba(0,0,0,0.75);
+    }
+    
+    #verde:hover{
+      background-color:#6DF86D;
+    }
+    
+    #rojo{
+      border-color: green green blue blue;
+      background-color: #B10000;
+      border-radius: 10px 100% 10px 10px;
+      box-shadow: inset 6px -5px 0px 0px rgba(0,0,0,0.75);
+    }
+    
+    #rojo:hover{
+      background-color:#FF0000;
+    }
+    
+    #amarillo{
+      border-color: green green blue blue;
+      background-color:#F8D836;
+      border-radius: 10px 10px 10px 100%;
+      box-shadow: inset -6px 5px 0px 0px rgba(0,0,0,0.75);
+    }
+    
+    #amarillo:hover{
+      background-color:#FFFF98;
+    }
+    
+    #azul{
+      border-color: red yellow yellow red;
+      background-color: blue;
+      border-radius: 10px 10px 100% 10px;
+      box-shadow: inset 6px 5px 0px 0px rgba(0,0,0,0.75);
+    }
+    
+    #azul:hover{
+      background-color:#5696DB;
+    }
+    h1{
+      text-align : center;
+    }
