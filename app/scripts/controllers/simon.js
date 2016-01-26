@@ -8,27 +8,19 @@
  * Controller of the simonApp
  */
 angular.module('simonApp')
-  .controller('SimonCtrl', function () {
-   $(document).ready(function(){
-			
-			$("#verde").click(function(){
-				$("#titulo").text("Verde");
-				$("#titulo").css("color","green");
-			})	
-			$("#rojo").click(function(){
-				$("#titulo").text("Rojo");
-				$("#titulo").css("color","red");
-			})
-				
-			$("#amarillo").click(function(){
-				$("#titulo").text("Amarillo");
-				$("#titulo").css("color","#E1E300");
-			})
-				
-			$("#azul").click(function(){
-				$("#titulo").text("Azul");
-				$("#titulo").css("color","blue");
-			})
-			
-		});
+  .controller('SimonCtrl', function ($scope) {
+   		
+  		$scope.colores = [];
+
+  		$scope.titulo = 'Simón';
+
+
+  		$scope.play = function(color){
+  			$scope.colores.push(color);
+  		}
+
+  		$scope.borrar = function(){
+  			$scope.colores = [];
+  		}
+
   });
